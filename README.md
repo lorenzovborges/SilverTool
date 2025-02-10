@@ -22,7 +22,9 @@ Python 3.x (https://www.python.org/downloads/)
 
 
 dependências (jogar o comando no cmd):
+
 Flask (pip install flask)
+
 PyODBC (pip install pyodbc)
 
 
