@@ -28,4 +28,4 @@ Flask (pip install flask)
 PyODBC (pip install pyodbc)
 
 
-Abrir .bat
+Abrir .bat ou executar o arquivo py normalmente
