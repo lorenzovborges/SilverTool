@@ -1,0 +1,2416 @@
+{
+    "accountingsourceexplorer_ptr": {
+        "columns": [
+            "AccountingDate",
+            "MainAccountId",
+            "MainAccountName",
+            "LedgerDimension",
+            "TransactionCurrencyAmount",
+            "AccountingCurrencyAmount",
+            "SubledgerVoucher",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "assetfailcomp_ptr": {
+        "columns": [
+            "RecId",
+            "CriticalComponent",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "budgettransactionheader": {
+        "columns": [
+            "BudgetModelDataAreaId",
+            "BudgetModelId",
+            "Date",
+            "TransactionNumber",
+            "RecId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "budgettransactionline": {
+        "columns": [
+            "AccountingCurrencyAmount",
+            "BudgetTransactionHeader",
+            "BudgetType",
+            "LedgerDimension",
+            "Date",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "custinvoicejour": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "InvoiceId",
+            "InvoiceDate",
+            "NumberSequenceGroup",
+            "SalesId",
+            "LedgerVoucher",
+            "InvoiceAccount",
+            "CurrencyCode",
+            "DefaultDimension",
+            "ExchRate",
+            "DueDate",
+            "IsDelete",
+            "CreatedBy",
+            "TableId",
+            "RECVERSION",
+            "CreatedDateTime",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "custinvoicetrans": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "NAME",
+            "InvoiceId",
+            "InvoiceDate",
+            "NumberSequenceGroup",
+            "SalesId",
+            "LineAmount",
+            "SALESPRICE",
+            "LineAmountMST",
+            "CURRENCYCODE",
+            "SALESCATEGORY",
+            "ItemId",
+            "SUMLINEDISC",
+            "Qty",
+            "SalesUnit",
+            "InventTransId",
+            "INVENTDIMID",
+            "LINECREATIONSEQUENCENUMBER",
+            "NUNITEMINVOICEJUNDU_PTR",
+            "NUNITEMPEDJUNDU_PTR",
+            "CREATEDDATETIME",
+            "CREATEDBY",
+            "MODIFIEDDATETIME",
+            "RECVERSION",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "custtable": {
+        "columns": [
+            "DataAreaId",
+            "AccountNum",
+            "CompanyChainId",
+            "SegmentId",
+            "LineOfBusinessId",
+            "CustGroup",
+            "MandatoryCreditLimit",
+            "CreditMax",
+            "CredManCreditLimitExpiryDate",
+            "CredManCreditLimitDate",
+            "Blocked",
+            "Party",
+            "MAINCONTACTWORKER",
+            "SUBSEGMENTID",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "custtrans": {
+        "columns": [
+            "RECID",
+            "PostingProfileClose",
+            "AccountingEvent",
+            "AccountNum",
+            "AmountCur",
+            "AmountMST",
+            "Approved",
+            "Approver",
+            "BankCentralBankPurposeCode",
+            "BankCentralBankPurposeText",
+            "BankLCExportLine",
+            "BankRemittanceFileId",
+            "BillOfExchangeID",
+            "BillOfExchangeSeqNum",
+            "BillOfExchangeStatus",
+            "CancelledPayment",
+            "CashDiscCode",
+            "CashPayment",
+            "Closed",
+            "CollectionLetter",
+            "CollectionLetterCode",
+            "CompanyBankAccountId",
+            "ControlNum",
+            "Correct",
+            "CurrencyCode",
+            "CustBillingClassification",
+            "CustExchAdjustmentRealized",
+            "CustExchAdjustmentUnrealized",
+            "DefaultDimension",
+            "DeliveryMode",
+            "DirectDebitMandate",
+            "DocumentDate",
+            "DocumentNum",
+            "DueDate",
+            "ExchAdjustment",
+            "ExchAdjustmentReporting",
+            "ExchRate",
+            "ExchRateSecond",
+            "FixedExchRate",
+            "Interest",
+            "Invoice",
+            "INVOICEPROJECT",
+            "LastExchAdj",
+            "LastExchAdjRate",
+            "LastExchAdjRateReporting",
+            "LastExchAdjVoucher",
+            "LastSettleAccountNum",
+            "LastSettleCompany",
+            "LastSettleDate",
+            "LastSettleVoucher",
+            "MCRPaymOrderID",
+            "OffsetRecid",
+            "OrderAccount",
+            "PaymId",
+            "PaymMethod",
+            "PaymMode",
+            "PaymReference",
+            "PaymSpec",
+            "PostingProfile",
+            "Prepayment",
+            "ReasonRefRecId",
+            "ReportingCurrencyAmount",
+            "ReportingCurrencyCrossRate",
+            "ReportingExchAdjustmentRealized",
+            "ReportingExchAdjustmentUnrealized",
+            "RetailCustTrans",
+            "RetailStoreId",
+            "RetailTerminalId",
+            "RetailTransactionId",
+            "SettleAmountCur",
+            "SettleAmountMST",
+            "SettleAmountReporting",
+            "Settlement",
+            "TaxInvoiceSalesId",
+            "ThirdPartyBankAccountId",
+            "TransDate",
+            "TransType",
+            "Txt",
+            "Voucher",
+            "DataAreaId",
+            "PaymSchedId",
+            "CashDiscBaseDate",
+            "ReportingCurrencyExchRate",
+            "ReportingCurrencyExchRateSecondary",
+            "PaymTermId",
+            "InvoiceType_IT",
+            "CredManExcludeFromCreditControl",
+            "CustAutomationExclude",
+            "CustAutomationPredunningSent",
+            "CustAutomationPredictionSent",
+            "SettleAmount_MX",
+            "DataVencimentoOriginal_PTR",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "custtransopen": {
+        "columns": [
+            "DataAreaId",
+            "RefRecId",
+            "AccountNum",
+            "AmountMST",
+            "DueDate",
+            "RecId",
+            "TransDate",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "dimensionattributevaluecombination": {
+        "columns": [
+            "RecId",
+            "DisplayValue",
+            "A_ESTABELECIMENTO_FISCALVALUE",
+            "B_DIVISAOVALUE",
+            "C_SETORVALUE",
+            "D_DEPARTAMENTOVALUE",
+            "E_CENTRO_DE_CUSTOVALUE",
+            "F_FLUXO_DE_CAIXAVALUE",
+            "MainAccount",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "dimensionattributevalueset": {
+        "columns": [
+            "RecId",
+            "A_Estabelecimento_FiscalValue",
+            "B_DivisaoValue",
+            "C_SetorValue",
+            "D_DepartamentoValue",
+            "E_Centro_De_CustoValue",
+            "F_Fluxo_De_CaixaValue",
+            "IsDelete",
+            "MAINACCOUNT",
+            "MODIFIEDDATETIME",
+            "MODIFIEDBY",
+            "CREATEDDATETIME",
+            "CREATEDBY",
+            "RECVERSION",
+            "PARTITION",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "dirpartylocation": {
+        "columns": [
+            "RECID",
+            "AttentionToAddressLine",
+            "IsLocationOwner",
+            "IsPostalAddress",
+            "IsPrimary",
+            "IsPrimaryTaxRegistration",
+            "IsPrivate",
+            "IsRoleBusiness",
+            "IsRoleDelivery",
+            "IsRoleHome",
+            "IsRoleInvoice",
+            "Location",
+            "Party",
+            "RECVERSION",
+            "MODIFIEDBY",
+            "PostalAddressRoles",
+            "SYSROWVERSION",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "dirpartytable": {
+        "columns": [
+            "RecId",
+            "Name",
+            "DataAreaId",
+            "NameAlias",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ecorescategory": {
+        "columns": [
+            "Name",
+            "RecId",
+            "CATEGORYHIERARCHY",
+            "IsDelete",
+            "Id",
+            "RECVERSION",
+            "VersionNumber"
+        ]
+    },
+    "ecorescategoryhierarchyrole": {
+        "columns": [
+            "CategoryHierarchy",
+            "NamedCategoryHierarchyRole",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ecoresproduct": {
+        "columns": [
+            "RecId",
+            "DisplayProductNumber",
+            "ProductType",
+            "IsDelete",
+            "INSTANCERELATIONTYPE",
+            "SEARCHNAME",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ecoresproductcategory": {
+        "columns": [
+            "Category",
+            "CategoryHierarchy",
+            "Product",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ecoresproducttranslation": {
+        "columns": [
+            "RecId",
+            "Product",
+            "Name",
+            "LanguageId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetfaultarea": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "FaultAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetfaultcause": {
+        "columns": [
+            "RecId",
+            "FaultCauseId",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetfaultsymptom": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "FaultSymptomId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetfaulttype": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "FaultTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetfunctionallocation": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetjobtype": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "JobTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetmaintenanceplan": {
+        "columns": [
+            "RecId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetobjecttable": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "DefaultDimension",
+            "ObjectType",
+            "ObjectId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetobjecttype": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "ObjectTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetrequesttable": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "StartedBYWorker",
+            "WorkOrder",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworker": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "HCMWorker",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkergroup": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "WorkerGroupId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderlifecyclestate": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "WorkOrderLifeCycleStateId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderline": {
+        "columns": [
+            "WorkOrder",
+            "DataAreaId",
+            "Object",
+            "JobType",
+            "RecId",
+            "ProjId",
+            "ProjActivity",
+            "RefTableId",
+            "RefRecId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderlinechecklist": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "Header",
+            "Type",
+            "NotApplicable",
+            "Checked",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderlinechecklistheader": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "WorkOrderLine",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderlinenote": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "WorkOrderLine",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkorderservicelevel": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "ServiceLevel",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "entassetworkordertype": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "WorkOrderTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "exchangerate": {
+        "columns": [
+            "ExchangeRate",
+            "ValidFrom",
+            "ValidTo",
+            "ExchangeRateCurrencyPair",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "exchangeratecurrencypair": {
+        "columns": [
+            "FromCurrencyCode",
+            "ToCurrencyCode",
+            "RecId",
+            "ExchangeRateType",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "exchangeratetype": {
+        "columns": [
+            "RecId",
+            "Name",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "fichadetransporteheader_ptr": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "InventSiteId",
+            "Data",
+            "Km",
+            "VeiculoId",
+            "HorimetroInicial",
+            "HorimetroFinal",
+            "QtdAbast",
+            "FichaTransporte",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "locais_ptr": {
+        "columns": [
+            "IsDelete",
+            "Id",
+            "VersionNumber",
+            "Descricao",
+            "Codigo",
+            "InventSiteId",
+            "Recid"
+        ]
+    },
+    "fichadetransporteline_ptr": {
+        "columns": [
+            "QtdReal",
+            "DataAreaId",
+            "RefrecId",
+            "MachineVeiculoId",
+            "LineNum",
+            "DoLocal",
+            "ParaLocal",
+            "QtdViagens",
+            "Qtd",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "fiscaldocumentline_br": {
+        "columns": [
+            "RecId",
+            "FiscalDocument",
+            "DataAreaId",
+            "ItemId",
+            "Description",
+            "UnitPrice",
+            "Quantity",
+            "LineAmount",
+            "RefRecId",
+            "RefTableId",
+            "AccountingAmount",
+            "Unit",
+            "IsDelete",
+            "CreatedDateTime",
+            "RECVERSION",
+            "Id",
+            "VersionNumber",
+            "CFOP"
+        ]
+    },
+    "fiscaldocumenttype_br": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "FiscalDocumentTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "fiscalestablishment_br": {
+        "columns": [
+            "FiscalEstablishmentId",
+            "FiscalEstablishmentGroup_BR",
+            "IENum_BR",
+            "Name",
+            "DataAreaId",
+            "CNPJCPFNum_BR",
+            "DirPartyLocation",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "generaljournalaccountentry": {
+        "columns": [
+            "RecId",
+            "GeneralJournalEntry",
+            "LedgerAccount",
+            "DataAreaId",
+            "Quantity",
+            "PostingType",
+            "IsCredit",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "generaljournalentry": {
+        "columns": [
+            "JournalNumber",
+            "Ledger",
+            "RecId",
+            "SubledgerVoucher",
+            "SubledgerVoucherDataAreaId",
+            "LedgerEntryJournal",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "hcmworker": {
+        "columns": [
+            "RecId",
+            "Person",
+            "PersonnelNumber",
+            "MODIFIEDDATETIME",
+            "MODIFIEDBY",
+            "CREATEDDATETIME",
+            "CREATEDBY",
+            "RECVERSION",
+            "PARTITION",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventdim": {
+        "columns": [
+            "RecId",
+            "InventSiteId",
+            "DataAreaId",
+            "InventDimId",
+            "InventLocationId",
+            "wMSLocationId",
+            "INVENTSIZEID",
+            "INVENTBATCHID",
+            "INVENTSTATUSID",
+            "RECVERSION",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventitemgroup": {
+        "columns": [
+            "ItemGroupId",
+            "DataAreaId",
+            "Name",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventitemgroupform": {
+        "columns": [
+            "ItemGroupId",
+            "DataAreaId",
+            "InventAccountType",
+            "LedgerDimension",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventitemgroupitem": {
+        "columns": [
+            "ItemGroupId",
+            "ItemDataAreaId",
+            "ItemId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventjournaltrans": {
+        "columns": [
+            "RecId",
+            "ProjId",
+            "DataAreaId",
+            "ItemId",
+            "QTY",
+            "CostPrice",
+            "CostAmount",
+            "InventDimId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventsum": {
+        "columns": [
+            "DataAreaId",
+            "ItemId",
+            "InventSiteId",
+            "PostedQty",
+            "Deducted",
+            "Received",
+            "PhysicalValue",
+            "PostedValue",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventtable": {
+        "columns": [
+            "RecId",
+            "Product",
+            "DataAreaId",
+            "ItemId",
+            "TaxFiscalClassification_BR",
+            "ItemGroupName_PTR",
+            "NameAlias",
+            "PmfProductType",
+            "ProductLifeCyclEstateId",
+            "IsNomenclatura_PTR",
+            "IsDelete",
+            "CreatedDateTime",
+            "Id",
+            "PACKAGINGGROUPID",
+            "VersionNumber"
+        ]
+    },
+    "inventtrans": {
+        "columns": [
+            "Id",
+            "intercompanyinventdimtransferred",
+            "invoicereturned",
+            "packingslipreturned",
+            "statusissue",
+            "statusreceipt",
+            "transchildtype",
+            "valueopen",
+            "valueopenseccur_ru",
+            "itmskipvarianceupdate",
+            "itmmustskipadjustment",
+            "sysdatastatecode",
+            "activitynumber",
+            "costamountadjustment",
+            "costamountoperations",
+            "costamountphysical",
+            "costamountposted",
+            "costamountsettled",
+            "costamountsettledseccur_ru",
+            "costamountstd",
+            "currencycode",
+            "dateclosed",
+            "dateexpected",
+            "datefinancial",
+            "dateinvent",
+            "datephysical",
+            "datestatus",
+            "inventdimfixed",
+            "inventdimid",
+            "inventtransorigin",
+            "invoiceid",
+            "itemid",
+            "markingrefinventtransorigin",
+            "packingslipid",
+            "pdscwqty",
+            "pdscwsettled",
+            "pickingrouteid",
+            "projadjustrefid",
+            "projcategoryid",
+            "projid",
+            "qty",
+            "qtysettled",
+            "qtysettledseccur_ru",
+            "returninventtransorigin",
+            "revenueamountphysical",
+            "shippingdateconfirmed",
+            "shippingdaterequested",
+            "taxamountphysical",
+            "timeexpected",
+            "transchildrefid",
+            "voucher",
+            "voucherphysical",
+            "nonfinancialtransferinventclosing",
+            "loadid",
+            "receiptid",
+            "itmcosttypeid",
+            "itmcosttransrecid",
+            "rcsequence_ptr",
+            "createddatetime",
+            "createdby",
+            "createdtransactionid",
+            "dataareaid",
+            "recversion",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "inventtransorigin": {
+        "columns": [
+            "ReferenceId",
+            "DataAreaId",
+            "ItemId",
+            "RecId",
+            "ReferenceCategory",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventvalueexecutionhistory": {
+        "columns": [
+            "DataAreaId",
+            "ExecutionName",
+            "TransactionId",
+            "FromDate",
+            "ToDate",
+            "ExecutionTime",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "inventvaluereporttmpline": {
+        "columns": [
+            "DataAreaId",
+            "InventSiteId",
+            "InventoryFinancialAmount",
+            "InventoryFinancialQty",
+            "ResourceId",
+            "Reference",
+            "ReferenceCategory",
+            "TransactionId",
+            "Voucher",
+            "TransDate",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ledger": {
+        "columns": [
+            "RECID",
+            "AccountingCurrency",
+            "BudgetExchangeRateType",
+            "ChartOfAccounts",
+            "DefaultExchangeRateType",
+            "Description",
+            "FiscalCalendar",
+            "IsBudgetControlEnabled",
+            "Name",
+            "PrimaryForLegalEntity",
+            "ReportingCurrency",
+            "MostRecentYearEndClose",
+            "ReportingCurrencyExchangeRateType",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "loadorderbalancehistory_ptr": {
+        "columns": [
+            "RecId",
+            "LoadOrderId",
+            "InventSiteId",
+            "Weight",
+            "BalanceId",
+            "BalanceName",
+            "WeightDateTime",
+            "BalanceOperation",
+            "DataAreaId",
+            "ModifiedDateTime",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "loadorderhistory_ptr": {
+        "columns": [
+            "RecId",
+            "LoadOrderId",
+            "EventHistory",
+            "DescriptionHistory",
+            "DateEventHistory",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "loadordertable_ptr": {
+        "columns": [
+            "Recid",
+            "DataAreaId",
+            "LoadingOrderId",
+            "OrderDate",
+            "Lacre",
+            "PesoSobDemanda",
+            "Ticket",
+            "PesoEntrada",
+            "PesoSaida",
+            "Transportadora",
+            "Veiculo",
+            "Placa",
+            "Estado",
+            "CustAccount",
+            "IdBalancaEntrada",
+            "IdBalancaSaida",
+            "Status",
+            "SalesQtyOnOrder",
+            "InvoiceId",
+            "CustName",
+            "CustNameAlias",
+            "SalesId",
+            "FiscalDocumentRecId",
+            "FiscalEstab",
+            "PesoEntradaParcial",
+            "PesoSaidaParcial",
+            "PesoLiquido",
+            "PesoLiquidoEstimado",
+            "ItemId",
+            "ItemName",
+            "ItemNameAlias",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "logisticsaddresscity": {
+        "columns": [
+            "RecId",
+            "IBGECode_BR",
+            "Description",
+            "StateId",
+            "CountryRegionId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "logisticsaddresscounty": {
+        "columns": [
+            "RecId",
+            "CountryRegionId",
+            "CountyCode_IT",
+            "CountyCode_SP",
+            "CountyId",
+            "Name",
+            "StateId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "logisticsaddressstate": {
+        "columns": [
+            "RecId",
+            "CountryRegionId",
+            "Name",
+            "StateId",
+            "TimeZone",
+            "IBGECode_BR",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "logisticspostaladdress": {
+        "columns": [
+            "RecId",
+            "CityRecId",
+            "Address",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "mainaccount": {
+        "columns": [
+            "Name",
+            "RecId",
+            "MainAccountId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "markuptrans": {
+        "columns": [
+            "DataAreaId",
+            "TransRecId",
+            "TransTableId",
+            "RecId",
+            "CALCULATEDAMOUNT",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "paymsched": {
+        "columns": [
+            "Name",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "paymschedline": {
+        "columns": [
+            "Name",
+            "DataAreaId",
+            "Qty",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "paymterm": {
+        "columns": [
+            "NumOfDays",
+            "NumOfMonths",
+            "PaymSched",
+            "DataAreaId",
+            "PaymTermId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "prodroutetrans": {
+        "columns": [
+            "DataAreaId",
+            "TransRefId",
+            "WrkCtrId",
+            "DateCalc",
+            "Hours",
+            "OprId",
+            "Cancelled",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "prodtable": {
+        "columns": [
+            "DataAreaId",
+            "ProdId",
+            "InventTransId",
+            "RealDate",
+            "IsDelete",
+            "QtyCalc",
+            "ProdPoolId",
+            "ItemId",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "prodtablejour": {
+        "columns": [
+            "DataAreaId",
+            "ProdId",
+            "InventTransId",
+            "JournalType",
+            "QtyGood",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "projjournaltrans": {
+        "columns": [
+            "DataAreaId",
+            "ProjId",
+            "Resource",
+            "FromDate_PTR",
+            "ToDate_PTR",
+            "QTY",
+            "TXT",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "projtable": {
+        "columns": [
+            "DataAreaId",
+            "ProjId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchline": {
+        "columns": [
+            "PurchUnit",
+            "PurchQty",
+            "PriceUnit",
+            "PurchPrice",
+            "LineAmount",
+            "LineDISC",
+            "DiscAmount",
+            "ItemId",
+            "DeliveryDate",
+            "TaxItemGroup",
+            "TaxGroup",
+            "PurchId",
+            "IsDeleted",
+            "DataAreaId",
+            "DefaultDimension",
+            "InventDimId",
+            "ProcurementCategory",
+            "Name",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchreqline": {
+        "columns": [
+            "PurchRFQCaseId",
+            "PurchId",
+            "PurchReqTable",
+            "DefaultDimension",
+            "PurchRFQCaseIdDataArea",
+            "PurchIdDataArea",
+            "VendAccount",
+            "ItemId",
+            "ActivityNumber",
+            "RequisitionStatus",
+            "ItemIdDataArea",
+            "ItemGroupId_Jun",
+            "Name",
+            "PriceUnit",
+            "LineAmount",
+            "LineDisc",
+            "RequiredDate",
+            "TransDate",
+            "PurchQTY",
+            "PurchPrice",
+            "IsDelete",
+            "Id",
+            "ProjId",
+            "VersionNumber"
+        ]
+    },
+    "purchreqtable": {
+        "columns": [
+            "RecId",
+            "CreatedDateTime",
+            "PurchReqId",
+            "RequisitionStatus",
+            "PurchGroupId_PTR",
+            "SiteId_Jun",
+            "IsDelete",
+            "CreatedBy",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchrfqcaseline": {
+        "columns": [
+            "ItemId",
+            "ItemName",
+            "DataAreaId",
+            "PriceUnit",
+            "LineAmount",
+            "LineDisc",
+            "PurchPrice",
+            "PurchQTY",
+            "PurchUnit",
+            "RFQCaseId",
+            "PurchIdLast_PTR",
+            "DefaultDimension",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchrfqcasetable": {
+        "columns": [
+            "RFQCaseId",
+            "DataAreaId",
+            "CreatedDateTime",
+            "Requester",
+            "RecId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchtable": {
+        "columns": [
+            "PurchId",
+            "DataAreaId",
+            "RecId",
+            "CreatedDateTime",
+            "OrderAccount",
+            "WorkerPurchPlacer",
+            "InventSiteId",
+            "PurchGroupId_PTR",
+            "Payment",
+            "PaymentSched",
+            "InvoiceAccount",
+            "CurrencyCode",
+            "PostingProfile",
+            "PaymMode",
+            "PurchStatus",
+            "PurchaseType",
+            "IsDelete",
+            "createdby",
+            "Id",
+            "ProjId",
+            "VersionNumber"
+        ]
+    },
+    "purchtable_br": {
+        "columns": [
+            "RecId",
+            "DataAreaId",
+            "PurchTable",
+            "SalesPurchOperationType_BR",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "resresourceidentifier": {
+        "columns": [
+            "RecId",
+            "RefRecId",
+            "RefTableId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "salescarrier": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "CarrierName",
+            "VendAccount_BR",
+            "CnpjCpfNum_BR",
+            "IENum_BR",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "salesline": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "SalesId",
+            "SalesCategory",
+            "ItemId",
+            "SalesQty",
+            "LineAmount",
+            "SalesUnit",
+            "InventTransId",
+            "ShippingDateRequested",
+            "SalesStatus",
+            "SalesPrice",
+            "PriceUnit",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "salespurchoperationtype_br": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "Name",
+            "OperationTypeId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "salestable": {
+        "columns": [
+            "DataAreaId",
+            "SalesId",
+            "CustAccount",
+            "CreatedBy",
+            "CreatedDateTime",
+            "InvoiceAccount",
+            "CurrencyCode",
+            "InventSiteId",
+            "PostingProfile",
+            "Payment",
+            "PayMMode",
+            "SalesStatus",
+            "SMMCAMPAIGNID",
+            "STATPROCID",
+            "SalesType",
+            "TAXGROUP",
+            "TRANSACTIONCODE",
+            "TRANSPORT",
+            "URL",
+            "defaultdimension",
+            "VATNUM",
+            "CONSTARGET_JP",
+            "EINVOICEACCOUNTCODE",
+            "EINVOICELINESPEC",
+            "RECVERSION",
+            "PARTITION",
+            "RecId",
+            "WORKERSALESRESPONSIBLE",
+            "WORKERSALESTAKER",
+            "DLVTERM",
+            "StatusEnvioBus_PTR",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "smmbusrelsegmentgroup": {
+        "columns": [
+            "SegmentId",
+            "Description",
+            "DataAreaId",
+            "IsDelete",
+            "Id",
+            "RECVERSION",
+            "PARTITION",
+            "RECID",
+            "VersionNumber"
+        ]
+    },
+    "smmbusrelsubsegmentgroup": {
+        "columns": [
+            "SegmentId",
+            "DataAreaId",
+            "SubSegmentId",
+            "SubSegmentDescription",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "taxtrans": {
+        "columns": [
+            "Voucher",
+            "TransDate",
+            "TaxAmount",
+            "DataAreaId",
+            "SourceRecId",
+            "SourceTableId",
+            "SourceRegulateAmountCur",
+            "IsDelete",
+            "TaxCode",
+            "Id",
+            "RecId",
+            "VersionNumber"
+        ]
+    },
+    "vendinvoiceinfotable": {
+        "columns": [
+            "RecId",
+            "OrderAccount",
+            "DocumentDate",
+            "Num",
+            "PurchId",
+            "PurchName",
+            "PostingProfile",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendinvoicejour": {
+        "columns": [
+            "DataAreaId",
+            "RecId",
+            "InvoiceAccount",
+            "PurchId",
+            "InvoiceId",
+            "InvoiceDate",
+            "LedgerVoucher",
+            "CurrencyCode",
+            "InvoiceAmount",
+            "InvoiceAmountMST",
+            "ExchRate",
+            "NumberSequenceGroup",
+            "DueDate",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendinvoicetrans": {
+        "columns": [
+            "DataAreaId",
+            "InvoiceId",
+            "InvoiceDate",
+            "NumberSequenceGroup",
+            "PurchId",
+            "RecId",
+            "ItemId",
+            "Qty",
+            "LineAmount",
+            "LineAmountMST",
+            "DefaultDimension",
+            "PurchUnit",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendrfqjour": {
+        "columns": [
+            "InternalRFQId",
+            "RFQId",
+            "RFQDate",
+            "VendAccount",
+            "RFQCaseId",
+            "Status",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "dirpersonuser": {
+        "columns": [
+            "createdby",
+            "createddatetime",
+            "createdon",
+            "createdtransactionid",
+            "dataareaid",
+            "Id",
+            "IsDelete",
+            "modifieddatetime",
+            "personparty",
+            "recid",
+            "sysdatastatecode",
+            "sysrowversion",
+            "tableid",
+            "user",
+            "validfrom",
+            "validto",
+            "versionnumber"
+        ]
+    },
+    "vendrfqtrans": {
+        "columns": [
+            "InternalRFQId",
+            "RFQId",
+            "RFQDate",
+            "DefaultDimension",
+            "ItemId",
+            "ItemName",
+            "DataAreaId",
+            "TaxGroup",
+            "RFQCaseLineLineNumber",
+            "LineAmount",
+            "LineDisc",
+            "PurchPrice",
+            "PurchQty",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendtable": {
+        "columns": [
+            "DataAreaId",
+            "AccountNum",
+            "Party",
+            "CompanyChainId",
+            "SegmentId",
+            "LineOfBusinessId",
+            "VendGroup",
+            "SubSegmentId",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendtrans": {
+        "columns": [
+            "DataAreaId",
+            "AccountNum",
+            "TransType",
+            "TransDate",
+            "Invoice",
+            "Voucher",
+            "AmountMST",
+            "SettleAmountMST",
+            "CurrencyCode",
+            "RecId",
+            "DefaultDimension",
+            "PostingProfile",
+            "PaymTermId",
+            "PaymMode",
+            "DocumentDate",
+            "DueDate",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "vendtransopen": {
+        "columns": [
+            "DataAreaId",
+            "RefRecId",
+            "AccountNum",
+            "AmountMST",
+            "DueDate",
+            "RecId",
+            "TransDate",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "workflowtrackingstatustable": {
+        "columns": [
+            "RecId",
+            "TrackingStatus",
+            "ContextRecId",
+            "ContextTableId",
+            "IsDelete",
+            "CreatedBy",
+            "CreatedDateTime",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "workflowtrackingtable": {
+        "columns": [
+            "TrackingContext",
+            "TrackingType",
+            "StepId",
+            "RecId",
+            "CreatedBy",
+            "CreatedDateTime",
+            "User",
+            "WorkflowTrackingStatusTable",
+            "Name",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "purchrfqvendlink": {
+        "columns": [
+            "Id",
+            "sysdatastatecode",
+            "contactpersonid",
+            "email",
+            "phone",
+            "rfqcaseid",
+            "salespurchoperationtype_br",
+            "salestaxformtypes_in",
+            "vendaccount",
+            "modifiedby",
+            "createddatetime",
+            "createdby",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "entassetobjectfaultcause": {
+        "columns": [
+            "Id",
+            "sysdatastatecode",
+            "faultcause",
+            "objectfaultsymptom",
+            "dataareaid",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "entassetobjectfaultsymptom": {
+        "columns": [
+            "Id",
+            "sysdatastatecode",
+            "faultarea",
+            "faultdate",
+            "faultid",
+            "faultsymptom",
+            "faulttype",
+            "functionallocation",
+            "functionallocationobject",
+            "object",
+            "criticalcomponent_ptr",
+            "requestid_ptr",
+            "dataareaid",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "entassetobjectproductionstop": {
+        "columns": [
+            "Id",
+            "sysdatastatecode",
+            "functionallocation",
+            "object",
+            "productionstoptype",
+            "stopduration",
+            "stopfrom",
+            "stopto",
+            "workorder",
+            "modifiedtransactionid",
+            "createddatetime",
+            "createdby",
+            "createdtransactionid",
+            "dataareaid",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "efdocumentreceivedxml_br": {
+        "columns": [
+            "Id",
+            "inquirystatus",
+            "manualentry",
+            "posted",
+            "validationsupplystatus_ptr",
+            "validationfiscalstatus_ptr",
+            "xmlintegrationstatus_ptr",
+            "warntotalamount_ptr",
+            "statusconference_ptr",
+            "statusprocess_ptr",
+            "sysdatastatecode",
+            "accesskey",
+            "cnpjnum_br",
+            "fiscaldocument_br",
+            "fiscaldocumentnumber",
+            "fiscaldocumentseries",
+            "fiscalestablishment_br",
+            "ibgecode",
+            "lastinquiry",
+            "returncode",
+            "returncodedescription",
+            "invoiceddate_ptr",
+            "manualvalidationsupplyuser_ptr",
+            "manualvalidationfiscaluser_ptr",
+            "manualvalidationsupplydatetime_ptr",
+            "manualvalidationfiscaldatetime_ptr",
+            "purchid_ptr",
+            "invoicedate_ptr",
+            "documentdate_ptr",
+            "invoiceuser_ptr",
+            "taxtreatmentcode_jun",
+            "taxtreatmentdate_jun",
+            "fiscalobservation_jun",
+            "modifieddatetime",
+            "modifiedby",
+            "modifiedtransactionid",
+            "createddatetime",
+            "createdby",
+            "createdtransactionid",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "createdon",
+            "modifiedon",
+            "IsDelete"
+        ]
+    },
+    "custinvoicejour_br": {
+        "columns": [
+            "Id",
+            "custfinaluser_br",
+            "servicecodeondlvaddress_br",
+            "presencetype",
+            "sysdatastatecode",
+            "custinvoicejour",
+            "fiscaldocumenttype_br",
+            "fiscalestablishment_br",
+            "salespurchoperationtype_br",
+            "transitcontrolvoucher_br",
+            "dataareaid",
+            "CreatedBy",
+            "CreatedDateTime",
+            "sysrowversion",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "fiscaldocument_br": {
+        "columns": [
+            "Id",
+            "complementarytype",
+            "correctionletter",
+            "direction",
+            "fiscaldocumentaccounttype",
+            "fiscaldocumentissuer",
+            "freightchargeterms",
+            "previousversion",
+            "purpose",
+            "specie",
+            "status",
+            "typeofcte",
+            "version",
+            "finaluser",
+            "presencetype",
+            "thirdpartyicmscontributor",
+            "paymentmethod",
+            "thirdpartysalesdigitalplatform",
+            "systipoalteracao_ptr",
+            "statusenviobus_ptr",
+            "freightchargeterms_ptr",
+            "pdfexported_ptr",
+            "sysdatastatecode",
+            "accesskey",
+            "accountingdate",
+            "auditedby",
+            "auditeddatetime",
+            "cancelaccountingdate",
+            "cancelinventoryvoucherid",
+            "cancelreasoncomment",
+            "cancelvoucherid",
+            "cfpsid",
+            "citywhereserviceperformed",
+            "complementedfiscaldocument",
+            "deliverycnpjcpf",
+            "deliveryie",
+            "deliverylogisticspostaladdress",
+            "deliverymode",
+            "deliveryterm",
+            "fiscaldocumentaccountnum",
+            "fiscaldocumentdate",
+            "fiscaldocumentformat",
+            "fiscaldocumentnumber",
+            "fiscaldocumentseries",
+            "fiscalestablishment",
+            "fiscalestablishmentccmnum",
+            "fiscalestablishmentcnpjcpf",
+            "fiscalestablishmentie",
+            "fiscalestablishmentname",
+            "fiscalestablishmentphone",
+            "fiscalestablishmentpostaladdress",
+            "fiscalestablishmenttribsubstitutionreg",
+            "importdeclaration",
+            "inventoryvoucher",
+            "model",
+            "numericcode",
+            "operationdescription",
+            "packingbrand",
+            "refrecid",
+            "reftableid",
+            "salescarrier",
+            "salescarrierlogisticspostaladdress",
+            "thirdpartyccmnum",
+            "thirdpartycnpjcpf",
+            "thirdpartyfax",
+            "thirdpartyie",
+            "thirdpartyname",
+            "thirdpartyphone",
+            "thirdpartypostaladdress",
+            "totalamount",
+            "totaldiscountamount",
+            "totalgoodsamount",
+            "totalmarkupfreightamount",
+            "totalmarkupinsuranceamount",
+            "totalmarkupotheramount",
+            "totalservicesamount",
+            "vehiclelicenseplatenumber",
+            "vehiclelicenseplatestate",
+            "voucher",
+            "CreatedDateTime",
+            "fiscaldocumentdatetime",
+            "fiscaldocumentdatetimeoffset",
+            "thirdpartyemail",
+            "thirdpartyforeignerid",
+            "totalsuframadiscountcofinsamount",
+            "totalsuframadiscounticmsamount",
+            "totalsuframadiscountpisamount",
+            "paymentamount",
+            "thirdpartysalesdigitalplatformcnpj",
+            "thirdpartysalesdigitalplatformsalesresponsible",
+            "substitutionaccesskey",
+            "applicationversion",
+            "cancelaccesskey",
+            "canceltaxauthorityinfo",
+            "returnitemnum_jun",
+            "nfsenumber_ptr",
+            "fiscaldocumenttyperecid_ptr",
+            "pdffileurl_ptr",
+            "xmlfileurl_ptr",
+            "pdfcertfileurl_ptr",
+            "modifieddatetime",
+            "dataareaid",
+            "recversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "salestable_br": {
+        "columns": [
+            "Id",
+            "custfinaluser_br",
+            "servicecodeondlvaddress_br",
+            "presencetype",
+            "thirdpartysalesdigitalplatform",
+            "sysdatastatecode",
+            "cfpsid_br",
+            "finecode_br",
+            "fiscaldocumenttype_br",
+            "interestcode_br",
+            "invoicerefrecid_br",
+            "salespurchoperationtype_br",
+            "salestable",
+            "taxservicecode_br",
+            "thirdpartysalesdigitalplatformcnpj",
+            "modifieddatetime",
+            "createddatetime",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "createdon",
+            "modifiedon",
+            "IsDelete"
+        ]
+    },
+    "entassetworkordertable": {
+        "columns": [
+            "Id",
+            "active",
+            "costtype",
+            "scheduleoneworker",
+            "sysdatastatecode",
+            "actualend",
+            "actualstart",
+            "criticality",
+            "custaccount",
+            "description",
+            "expectedend",
+            "expectedstart",
+            "functionallocation",
+            "parentworkorder",
+            "projinvoiceprojid",
+            "servicelevel",
+            "scheduledend",
+            "scheduledstart",
+            "workorderlifecyclestate",
+            "responsibleworkergroup",
+            "responsibleworker",
+            "workerscheduled",
+            "workorderid",
+            "workordertype",
+            "modifieddatetime",
+            "createddatetime",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "createdon",
+            "modifiedon",
+            "IsDelete"
+        ]
+    },
+    "salesline_br": {
+        "columns": [
+            "cfoptable_br",
+            "createdby",
+            "createddatetime",
+            "createdon",
+            "createdtransactionid",
+            "dataareaid",
+            "deliverycfoptable_br",
+            "fiscaldocumenttype_br",
+            "Id",
+            "IsDelete",
+            "modifiedby",
+            "modifieddatetime",
+            "modifiedon",
+            "modifiedtransactionid",
+            "partition",
+            "recid",
+            "recversion",
+            "salesline",
+            "SinkCreatedOn",
+            "SinkModifiedOn",
+            "suframadiscount_br",
+            "sysdatastatecode",
+            "sysrowversion",
+            "tableid",
+            "taxservicecode_br",
+            "versionnumber"
+        ]
+    },
+    "sysuserinfo": {
+        "columns": [
+            "Id",
+            "compilertarget",
+            "docuhandlingactive",
+            "docutoolbarbuttonactive",
+            "eventemailalertswhen",
+            "eventpopupdisplaywhen",
+            "eventpopuplinkdestination",
+            "eventpopups",
+            "eventworkflowshowpopup",
+            "eventworkflowtasksinclient",
+            "eventworkflowtasksinemail",
+            "helpmarkemptylinks",
+            "sqmenabled",
+            "workflowlineitemnotificationformat",
+            "density",
+            "theme",
+            "automaticurlupdate",
+            "enhancedtabsequence",
+            "tooltiponfocus",
+            "disablecopilotforfinanceaddinfordataexport",
+            "eventworkflowtasksinactioncenter",
+            "showtasklistondefaultdashboard",
+            "negativeamountsinred_cn",
+            "printssrsreportaotname_dc",
+            "sysdatastatecode",
+            "defaultcountryregion",
+            "email",
+            "eventpollfrequency",
+            "helptheme",
+            "fno_id",
+            "language",
+            "sqmuserguid",
+            "startpage",
+            "defaultexcelexportsite",
+            "defaultexcelexportpath",
+            "mailer",
+            "eventworkflowalternateemail",
+            "modifieddatetime",
+            "modifiedby",
+            "modifiedtransactionid",
+            "createddatetime",
+            "createdby",
+            "createdtransactionid",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "createdon",
+            "modifiedon",
+            "IsDelete"
+        ]
+    },
+    "wrkctrtable": {
+        "columns": [
+            "DataAreaId",
+            "WrkCtrId",
+            "DefaultDimension",
+            "RecId",
+            "Name",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "ecorescategoryhierarchy": {
+        "columns": [
+            "Id",
+            "Name",
+            "RecId",
+            "IsDelete",
+            "HIERARCHYMODIFIER",
+            "VersionNumber"
+        ]
+    },
+    "vendtransopensettlement_ptr": {
+        "columns": [
+            "Id",
+            "transtype",
+            "postingprofile",
+            "documentnum",
+            "documentdate",
+            "duedate",
+            "reasoncode",
+            "paymmode",
+            "paymspec",
+            "remitdate",
+            "bankaccountid",
+            "journalnum",
+            "retdate",
+            "currencycode",
+            "amountcur",
+            "amountmst",
+            "amountcurtransopen",
+            "amountmsttransopen",
+            "settleamountcur",
+            "settleamountmst",
+            "lastsettleaccountnum",
+            "lastsettlevoucher",
+            "lastsettlecompany",
+            "lastsettledate",
+            "closed",
+            "defaultdimension",
+            "dimensionvalues1_",
+            "dimensionvalues2_",
+            "dimensionvalues3_",
+            "dimensionvalues4_",
+            "dimensionvalues5_",
+            "dimensionvalues6_",
+            "dimensionvalues7_",
+            "dimensionvalues8_",
+            "dimensionvalues9_",
+            "dimensionvalues10_",
+            "dimensionvalues11_",
+            "dimensionnames1_",
+            "dimensionnames2_",
+            "dimensionnames3_",
+            "dimensionnames4_",
+            "dimensionnames5_",
+            "dimensionnames6_",
+            "dimensionnames7_",
+            "dimensionnames8_",
+            "dimensionnames9_",
+            "dimensionnames10_",
+            "dimensionnames11_",
+            "accountnum",
+            "vendname",
+            "invoice",
+            "reasondescription",
+            "vendtransrecid",
+            "vendtransopenrecid",
+            "vendsettlementrecid",
+            "transdate",
+            "approveddate",
+            "vendcashdiscdate",
+            "utilizedcashdisc",
+            "dataareaid",
+            "recversion",
+            "sysrowversion",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "accountingsourceexplorerexporterbi_ptr": {
+        "columns": [
+            "Id",
+            "SinkCreatedOn",
+            "SinkModifiedOn",
+            "issdriline",
+            "journalcategory",
+            "monetaryamount",
+            "postingtype",
+            "side",
+            "iscorrection",
+            "sysdatastatecode",
+            "accountingcurrencyamount",
+            "accountingdate",
+            "accountingdistributionrecid",
+            "destinationcompany",
+            "documentdate",
+            "documentdescription",
+            "documentnumber",
+            "documenttext",
+            "generaljournalaccountentry",
+            "journalnumber",
+            "ledgeraccount",
+            "linedate",
+            "linedescription",
+            "linedocumentreference",
+            "linenumber",
+            "linetext",
+            "location",
+            "mainaccountid",
+            "mainaccountname",
+            "partyname",
+            "partynumber",
+            "productnumber",
+            "projectactivitynumber",
+            "projectcategoryid",
+            "projectid",
+            "projectlinepropertyid",
+            "quantity",
+            "sourcedocumentrecid",
+            "sourcerelationtype",
+            "subledgervoucher",
+            "text",
+            "transactioncurrencyamount",
+            "transactioncurrencycode",
+            "typeenumname",
+            "unit",
+            "dimensionvalues1_",
+            "dimensionvalues2_",
+            "dimensionvalues3_",
+            "dimensionvalues4_",
+            "dimensionvalues5_",
+            "dimensionvalues6_",
+            "dimensionvalues7_",
+            "dimensionvalues8_",
+            "dimensionvalues9_",
+            "dimensionvalues10_",
+            "dimensionvalues11_",
+            "primaryfocus",
+            "ledgerdimension",
+            "primaryfocusdescription",
+            "reportingcurrencyamount",
+            "subledgerjournalaccountentryrecid",
+            "modifieddatetime",
+            "modifiedby",
+            "modifiedtransactionid",
+            "createddatetime",
+            "createdby",
+            "createdtransactionid",
+            "dataareaid",
+            "recversion",
+            "partition",
+            "sysrowversion",
+            "recid",
+            "tableid",
+            "versionnumber",
+            "createdon",
+            "modifiedon",
+            "IsDelete"
+        ]
+    },
+    "fiscaldocumenttaxtrans_br": {
+        "columns": [
+            "Id",
+            "TaxBaseAmount",
+            "type",
+            "fiscaldocumentline",
+            "taxamount",
+            "taxtrans",
+            "taxvalue",
+            "displaytaxvalue",
+            "dataareaid",
+            "partition",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "whsphysdimuom": {
+        "columns": [
+            "Id",
+            "DATAAREAID",
+            "ITEMID",
+            "defaultweight_ptr",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "tmssalestable": {
+        "columns": [
+            "SALESID",
+            "DATAAREAID",
+            "PARTITION",
+            "RECID",
+            "RECVERSION",
+            "CARRIERCUSTOMERACCOUNTNUMBER",
+            "TRANSPORTATIONTEMPLATEID",
+            "ROUTECONFIGCODE",
+            "MODECODE",
+            "CARRIERSERVICECODE",
+            "CARRIERGROUPCODE",
+            "CARRIERCODE",
+            "BROKERCODE",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "logisticselectronicaddress": {
+        "columns": [
+            "Id",
+            "LOCATION",
+            "PARTITION",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "hcmworkertitle": {
+        "columns": [
+            "Id",
+            "TITLE",
+            "WORKER",
+            "ORIGINALHIREDATETIME",
+            "SENIORITYDATE",
+            "ANNIVERSARYDATETIME",
+            "OFFICELOCATION",
+            "VALIDFROM",
+            "VALIDTO",
+            "WORKSFROMHOME",
+            "LOCATION",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "hcmworkerrehire": {
+        "columns": [
+            "Id",
+            "ALLOWREHIRE",
+            "WORKERREFERENCE",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "hcmpersonprivatedetails": {
+        "columns": [
+            "Id",
+            "PERSON",
+            "BIRTHDATE",
+            "NATIONALITYCOUNTRYREGION",
+            "DECEASEDDATE",
+            "EDUCATION",
+            "ETHNICORIGIN",
+            "GENDER",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "hcmpersondetails": {
+        "columns": [
+            "Id",
+            "PERSON",
+            "MARITALSTATUS",
+            "NUMBEROFDEPENDENTS",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "hcmemployment": {
+        "columns": [
+            "Id",
+            "WORKER",
+            "VALIDFROM",
+            "VALIDTO",
+            "LEGALENTITY",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "lineofbusiness": {
+        "columns": [
+            "Id",
+            "DESCRIPTION",
+            "LINEOFBUSINESSID",
+            "SYSROWVERSION",
+            "RECVERSION",
+            "DATAAREAID",
+            "PARTITION",
+            "recid",
+            "versionnumber",
+            "IsDelete"
+        ]
+    },
+    "inventdistinctproduct": {
+        "columns": [
+            "RecId",
+            "RECVERSION",
+            "DATAAREAID",
+            "ITEMID",
+            "INVENTSIZEID",
+            "PRODUCT",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "fiscaldocumentline_jun": {
+        "columns": [
+            "FISCALDOCUMENT",
+            "DATAAREAID",
+            "VALORCONHECFRETE",
+            "VALORFRETECTR",
+            "RECVERSION",
+            "RECID",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    },
+    "reasontableref": {
+        "columns": [
+            "RECID",
+            "DATAAREAID",
+            "PARTITION",
+            "RECVERSION",
+            "REASON",
+            "IsDelete",
+            "Id",
+            "VersionNumber"
+        ]
+    }
+}
